@@ -117,13 +117,13 @@ method.update = (candle) => {
         predictioncount++;
         haspredicted = true;
       }
-  }
-  learn();
-  //
-    // var json = neural.net.toJSON();
-    // // the entire object is now simply string. You can save this somewhere
-    // var str = JSON.stringify(json);
-    // log.debug(str);
+    }
+    learn();
+    //
+      // var json = neural.net.toJSON();
+      // // the entire object is now simply string. You can save this somewhere
+      // var str = JSON.stringify(json);
+      // log.debug(str);
   }
 }
 
@@ -192,7 +192,7 @@ method.check = () => {
       return this.advice('short');
     }
   }
-  
+
 }
  
 module.exports = method;
